@@ -25,13 +25,14 @@ Ek khoobsurat aur asaan web application jo **Aror University of Art, Architectur
 3.  "Calculate Result" par click karein.
 4.  Apna result dekhne ke baad "Download" button se save karlein.
 
-## 📸 Screenshots
+## 📸 Totorial for use this
 
-*(Yahan aap apni website ka ek screenshot laga sakte hain)*
+
 ## 👨‍💻 Developed By
 
 **Afaque Ahmed**
-* LinkedIn: [Aapka LinkedIn Profile Link]
+* LinkedIn: [[Aapka LinkedIn Profile Link](https://www.linkedin.com/posts/afaque-indher-047517311_gpa-and-cgpa-calculator-activity-7423756870563020800-O3Vm?utm_source=social_share_send&utm_medium=android_app&rcm=ACoAAE9GzHcBg--TulWfwU7ykoVzOL-DIkJeT84&utm_campaign=copy_link)]
+
 * GitHub: [Aapka GitHub Profile Link]
 
 ---
