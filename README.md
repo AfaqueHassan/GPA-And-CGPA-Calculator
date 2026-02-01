@@ -27,13 +27,15 @@ Ek khoobsurat aur asaan web application jo **Aror University of Art, Architectur
 
 ## 📸 Totorial for use this
 
+* Video: [[Click here to Watch ](https://www.linkedin.com/posts/afaque-indher-047517311_gpa-and-cgpa-calculator-activity-7423756870563020800-O3Vm?utm_source=social_share_send&utm_medium=android_app&rcm=ACoAAE9GzHcBg--TulWfwU7ykoVzOL-DIkJeT84&utm_campaign=copy_link)]
+
 
 ## 👨‍💻 Developed By
 
 **Afaque Ahmed**
-* LinkedIn: [[Aapka LinkedIn Profile Link](https://www.linkedin.com/posts/afaque-indher-047517311_gpa-and-cgpa-calculator-activity-7423756870563020800-O3Vm?utm_source=social_share_send&utm_medium=android_app&rcm=ACoAAE9GzHcBg--TulWfwU7ykoVzOL-DIkJeT84&utm_campaign=copy_link)]
+* LinkedIn: [Visit Linked in Profile [https://www.linkedin.com/in/afaque-indher-047517311]}
 
-* GitHub: [Aapka GitHub Profile Link]
+* GitHub: [[GitHub Profile Link](https://github.com/AfaqueHassan)]
 
 ---
 ⭐ Agar aapko ye project pasand aaya toh star zaroor kijiyega!
