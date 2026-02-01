@@ -35,7 +35,7 @@ function getGradePoints(marks, type) {
         if (marks >= 35.5) return { gp: 2.67, lg: 'C+' };
         if (marks >= 34) return { gp: 2.50, lg: 'C' };
         if (marks >= 32) return { gp: 2.33, lg: 'C-' };
-        if (marks >= 30.5) return { gp: 2.00, lg: 'D' };
+        if (marks >= 30.0) return { gp: 2.00, lg: 'D' };
         return { gp: 0.00, lg: 'F' };
     } else {
         if (marks >= 94) return { gp: 4.00, lg: 'A+' };
@@ -47,7 +47,7 @@ function getGradePoints(marks, type) {
         if (marks >= 71) return { gp: 2.67, lg: 'C+' };
         if (marks >= 68) return { gp: 2.50, lg: 'C' };
         if (marks >= 64) return { gp: 2.33, lg: 'C-' };
-        if (marks >= 61) return { gp: 2.00, lg: 'D' };
+        if (marks >= 60) return { gp: 2.00, lg: 'D' };
         return { gp: 0.00, lg: 'F' };
     }
 }
@@ -109,4 +109,5 @@ function clearAll() {
 
 function downloadResult() {
     window.print();
+
 }
