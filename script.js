@@ -13,8 +13,8 @@ function addSubject() {
         <td><input type="text" placeholder="Subject" class="s-name"></td>
         <td>
             <select class="s-type">
-                <option value="theory">Theory</option>
-                <option value="lab">Lab</option>
+                <option value="theory/(100)">Theory</option>
+                <option value="Practical/(50)">Lab</option>
             </select>
         </td>
         <td><input type="number" placeholder="Marks" class="s-marks" min="0"></td>
@@ -112,4 +112,5 @@ function downloadResult() {
     window.print();
 
 }
+
 
