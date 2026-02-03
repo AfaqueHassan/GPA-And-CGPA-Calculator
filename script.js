@@ -47,7 +47,8 @@ function getGradePoints(marks, type) {
         if (marks >= 71) return { gp: 2.67, lg: 'C+' };
         if (marks >= 68) return { gp: 2.50, lg: 'C' };
         if (marks >= 64) return { gp: 2.33, lg: 'C-' };
-        if (marks >= 60) return { gp: 2.00, lg: 'D' };
+        if (marks >= 61 ) return { gp: 2.00, lg: 'D' };
+        if (marks >= 60 ) return { gp: 1.70, lg: 'D-' };
         return { gp: 0.00, lg: 'F' };
     }
 }
@@ -111,3 +112,4 @@ function downloadResult() {
     window.print();
 
 }
+
