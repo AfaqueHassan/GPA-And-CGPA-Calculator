@@ -25,19 +25,20 @@ function addSubject() {
 }
 
 function getGradePoints(marks, type) {
-    if (type === 'lab') {
-        if (marks >= 47) return { gp: 4.00, lg: 'A+' };
-        if (marks >= 45) return { gp: 3.88, lg: 'A' };
+    if (type === 'lab') { // 50 Marks Column
+        if (marks >= 47.0) return { gp: 4.00, lg: 'A+' };
+        if (marks >= 45.0) return { gp: 3.88, lg: 'A' };
         if (marks >= 43.5) return { gp: 3.50, lg: 'A-' };
         if (marks >= 41.5) return { gp: 3.33, lg: 'B+' };
-        if (marks >= 40) return { gp: 3.00, lg: 'B' };
+        if (marks >= 40.0) return { gp: 3.00, lg: 'B' };
         if (marks >= 37.5) return { gp: 2.88, lg: 'B-' };
         if (marks >= 35.5) return { gp: 2.67, lg: 'C+' };
-        if (marks >= 34) return { gp: 2.50, lg: 'C' };
-        if (marks >= 32) return { gp: 2.33, lg: 'C-' };
-        if (marks >= 30.0) return { gp: 2.00, lg: 'D' };
+        if (marks >= 34.0) return { gp: 2.50, lg: 'C' };
+        if (marks >= 33.0) return { gp: 2.33, lg: 'C-' };
+        if (marks >= 30.5) return { gp: 2.00, lg: 'D' };
+        if (marks >= 30.0) return { gp: 1.70, lg: 'D-' };
         return { gp: 0.00, lg: 'F' };
-    } else {
+    } else { // 100 Marks Column
         if (marks >= 94) return { gp: 4.00, lg: 'A+' };
         if (marks >= 90) return { gp: 3.88, lg: 'A' };
         if (marks >= 87) return { gp: 3.50, lg: 'A-' };
@@ -47,12 +48,11 @@ function getGradePoints(marks, type) {
         if (marks >= 71) return { gp: 2.67, lg: 'C+' };
         if (marks >= 68) return { gp: 2.50, lg: 'C' };
         if (marks >= 64) return { gp: 2.33, lg: 'C-' };
-        if (marks >= 61 ) return { gp: 2.00, lg: 'D' };
-        if (marks >= 60 ) return { gp: 1.70, lg: 'D-' };
+        if (marks >= 61) return { gp: 2.00, lg: 'D' };
+        if (marks >= 60) return { gp: 1.70, lg: 'D-' };
         return { gp: 0.00, lg: 'F' };
     }
 }
-
 function calculateResult() {
     const marks = document.querySelectorAll('.s-marks');
     const credits = document.querySelectorAll('.s-credits');
@@ -112,6 +112,7 @@ function downloadResult() {
     window.print();
 
 }
+
 
 
 
